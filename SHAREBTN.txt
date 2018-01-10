@@ -1,0 +1,67 @@
+<div id="share-buttons">
+    
+    <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer.php?" target="_blank">
+        <img src="facebook.png" alt="Facebook" />
+    </a>
+    
+    <!-- Google+ -->
+    <a href="https://plus.google.com/share?" target="_blank">
+        <img src="google.png" alt="Google" />
+    </a>
+    
+    <!-- LinkedIn -->
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;" target="_blank">
+        <img src="linkedin.png" alt="LinkedIn" />
+    </a>
+       
+       
+    <!-- Twitter -->
+    <a href="https://twitter.com/share?" target="_blank">
+        <img src="twitter.png" alt="Twitter" />
+    </a>
+    
+</div>
+
+li a {
+	display:inline-block;
+	min-width:140px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family:"Comic Sans", Comic Sans MS, cursive ;
+	color: #fff;
+	
+	text-decoration: none;
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+}
+
+/*Create a horizontal list with spacing*/
+li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+/*Hover state for top level links*/
+li:hover a {
+	background: #19c589;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+	background: #19c589;
+	color: #fff;
+}
